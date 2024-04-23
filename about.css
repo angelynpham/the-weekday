@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header a {
   text-decoration: none;
 }
@@ -251,17 +256,4 @@ body {
   top: 55px;
   left: 730px;
   object-fit: cover;
-}
-
-@media only screen and (max-width: 1280px) {
-  .about-page {
-    background-color: #000000; /* Set black background within media query */
-  }
-
-  .about-page .div {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    background-color: #000000; /* Ensure black background remains */
-  }
 }
