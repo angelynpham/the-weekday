@@ -6,7 +6,7 @@ Welcome to The Weekday repository! This project is a recreated fan site of the r
 
 ## Project Details
 
-- **Figma Prototype**: The prototype for The Weekday was created using Figma. You can view the prototype [here](https://www.figma.com/file/2inrMPIqfuQyPv48IYmGz3/Angelyn-Pham%2C-Sheldon-Douglas%2C-Anh-Le?type=design&mode=design&t=DdmUQr3haui11ZCQ-1){:target="_blank"}
+- **Figma Prototype**: The prototype for The Weekday was created using Figma. You can view the prototype [here](https://www.figma.com/file/2inrMPIqfuQyPv48IYmGz3/Angelyn-Pham%2C-Sheldon-Douglas%2C-Anh-Le?type=design&mode=design&t=DdmUQr3haui11ZCQ-1{:target="_blank"})
 - **HTML/CSS Implementation**: The design from Figma was translated into a fully functional website using HTML and CSS.
 - **Final Project**: The Weekday was developed as the final project for CMSC398M, a course focusing on how to make a website or mobile application from a design made on Figma.
 
