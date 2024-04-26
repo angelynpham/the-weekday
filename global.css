@@ -17,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2vh;
+    padding: 1vh;
 }
 
 header #logo {
@@ -45,10 +45,12 @@ footer {
     margin-top: auto;
     flex-direction: column;
     align-items: center; 
-    padding: 3vh;
+    padding: 1vh;
 }
 
-footer #icons a {
-    margin: 2vw;
+footer #icons img {
+    margin: 1vw;
+    height: 5vh;
+    width: 5vh;
 }
 
