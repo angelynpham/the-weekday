@@ -1,0 +1,30 @@
+/* About Page */
+
+.summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2vh;
+    gap: 5vw;
+    margin-bottom: 10vw;
+}
+
+.summary img {
+    min-width: 30%;
+    max-width: 60%;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 2vh;
+    gap: 5vw;
+    margin-bottom: 10vw;
+}
+
+figure img {
+    min-width: 30%;
+    max-width: 40%;
+}
