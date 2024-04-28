@@ -12,6 +12,7 @@
     margin: 0;          /* Remove default margin */
     color: white;
     margin-bottom: 10vh;
+    font-size: 4vh;
 }
 
 #news {
