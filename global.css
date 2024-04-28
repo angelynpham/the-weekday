@@ -71,3 +71,10 @@ footer #icons img {
     width: 5vh;
 }
 
+.music-page .listen-button {
+    position: absolute;
+    width: 124px;
+    height: 25px;
+    top: 513px;
+    left: 773px;
+  }
