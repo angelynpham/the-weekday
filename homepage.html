@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Weekday</title>
     <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="homepage.css" />
   </head>
 
   <body>
@@ -32,19 +33,27 @@
     <!-- HEADER ends here -->
 
     <!-- Main Content starts here -->
-    <div class="slider">
-      <figure>
-        <img class="homepage-images" src="img/weeknd_homepage_1.png" alt="" /> AFTER HOURS TIL DAWN TOUR
-        <img class="homepage-images" src="img/weeknd_homepage_2.png" alt="" /> The Weeknd on Stage
-      </figure>
-      <img class="tour-poster" src="img/tour_poster.png" alt="Tour Poster"/>
-    </div>
+    <div class="content">
 
-    <div class="latest-news">
-      <div class="twitter-api">
-        <a class="twitter-timeline" href="https://twitter.com/theweeknd?ref_src=twsrc%5Etfw"></a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <div class="slider-container">
+        <!-- Slider -->
+        <figure class="slider">
+          <img class="homepage-images" src="img/weeknd_homepage_1.png" alt="" /> 
+          <br />
+          <p class="image-caption">AFTER HOURS TIL DAWN TOUR</p>
+        </figure>
       </div>
+      
+      <h1>Latest News</h1>
+      <div class="latest-news">
+        <img class="tour-poster" src="img/tour_poster.png" alt="Tour Poster"/>
+        <!-- Latest News with Twitter API -->
+        <div class="twitter-api">
+          <a class="twitter-timeline" href="https://twitter.com/theweeknd?ref_src=twsrc%5Etfw"></a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+
     </div>
     <!-- Main Content ends here -->
 

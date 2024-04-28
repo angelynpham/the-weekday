@@ -5,9 +5,11 @@ body {
     background-color: #000000;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
     margin: 0;
     padding: 0;
+    height: 100%;
+    color: white;
 }
 
 header {
@@ -19,7 +21,6 @@ header {
     justify-content: space-between;
     padding: 1vh;
 }
-
 header #logo {
     display: flex;
     align-items: center;
@@ -28,7 +29,6 @@ header #logo {
     gap: 1vw;
     text-shadow: 4px 4px 4px gray;
 }
-
 header #nav {
     display: flex;
     flex-wrap: wrap;
@@ -37,37 +37,36 @@ header #nav {
     gap: 5vw;
     text-shadow: 4px 4px 4px gray;
 }
-
 header #nav a {
     color: white;
     font-size: x-large;
     text-decoration: none;
 }
-
 header #nav a:hover {
     color: red;
     font-size: xx-large;
     text-decoration: none;
     text-shadow: 4px 4px 4px #aaaaaa;
 }
-
 header #email {
     margin-right: 4vw; 
 }
-
+.content {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
 footer {
     background-color: #F6B101;
-    position: sticky;
     display: flex;
-    margin-top: auto;
+    flex-shrink: 0; /* Prevent the footer from shrinking */
     flex-direction: column;
     align-items: center; 
+    justify-content: center; /* Center the content horizontally */
     padding: 1vh;
+    margin-top: auto;
 }
-
 footer #icons img {
     margin: 1vw;
     height: 5vh;
     width: 5vh;
 }
-
