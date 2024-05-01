@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Irish+Grover');
+
+body {
+    font-family: 'Irish Grover', monospace;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F6B101;
+    color: white;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh;
+}
+
+header #logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 4vw;
+    gap: 1vw;
+    text-shadow: 4px 4px 4px gray;
+}
+
+header #nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5vw;
+    text-shadow: 4px 4px 4px gray;
+}
+
+header #nav a {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+header #nav a:hover {
+    color: red;
+    font-size: xx-large;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px #aaaaaa;
+}
+
+header #email {
+    margin-right: 4vw; 
+}
+
+footer {
+    background-color: #F6B101;
+    position: sticky;
+    display: flex;
+    margin-top: auto;
+    flex-direction: column;
+    align-items: center; 
+    padding: 1vh;
+}
+
+footer #icons img {
+    margin: 1vw;
+    height: 5vh;
+    width: 5vh;
+}
+
+.white_box_music_page {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+.white_box_music_page img {
+  height: 35vh;
+  width: 50vh;
+  position: relative;
+  margin-left: 3vh;
+  margin-right: 3vh;
+  border: 4px white solid;
+  border-radius: 10px;
+}
+
+.album_cont {
+ flex-direction: column;
+ display: flex;
+ align-items: center;
+}
+
+.video_top_region {
+   position: relative;
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10vh;
+   margin-bottom: 15vh;
+}
+
+.latest_releases {
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 10vh;
+}
+
+.listen-button {
+ color: white;
+ height: 25px;
+ width: 100px;
+ background-color: red;
+ text-align: center;
+ padding-top: 5px;
+ border-radius: 20px;
+ margin-top: 1vh;
+ margin-bottom: 3vh;
+}
