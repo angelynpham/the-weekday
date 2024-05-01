@@ -1,0 +1,42 @@
+/* Homepage */
+
+.homepage-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%; 
+}
+
+.image-caption {
+    text-align: center; /* Center text */
+    margin: 0;          /* Remove default margin */
+    color: white;
+    margin-bottom: 10vh;
+    font-size: 4vh;
+}
+
+#news {
+    margin: 10vh 10vh;
+}
+
+.latest-news {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5vw;
+    margin: 10vh 10vh;
+}
+
+.tour-poster {
+    width: 50%; 
+}
+
+.twitter-api {
+    width: 50%; /* Default width, takes full width of the parent container */
+}
+
+/* Adjust the width of the Twitter API container for smaller screens */
+@media screen and (max-width: 700px) {
+    .twitter-api {
+        width: 25%; /* Set a smaller width for screens up to 768px */
+    }
+}
