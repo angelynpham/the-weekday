@@ -1,13 +1,13 @@
 /* Homepage */
 
-.slider .homepage-images {
+.homepage-images {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75%; 
 }
 
-.slider .image-caption {
+.image-caption {
     text-align: center; /* Center text */
     margin: 0;          /* Remove default margin */
     color: white;
@@ -35,7 +35,7 @@
 }
 
 /* Adjust the width of the Twitter API container for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .twitter-api {
         width: 25%; /* Set a smaller width for screens up to 768px */
     }
