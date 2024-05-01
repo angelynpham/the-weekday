@@ -1,6 +1,5 @@
 /* Homepage */
-
-.homepage-images {
+.homepage-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -15,7 +14,7 @@
     font-size: 4vh;
 }
 
-#news {
+.news {
     margin: 10vh 10vh;
 }
 
